@@ -26,7 +26,7 @@ engine.setProperty('voice', 'en+m5')
 engine.say(mytext)
 engine.runAndWait()
 
-
+#------------------------------------------       USING TTS-WATSON VOICE           --------------------------------------#
 #ttsWatson = TtsWatson('watson_user', 'watson_password', 'en-US_AllisonVoice') # en-US_AllisonVoice is a voice from watson you can found more to: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/text-to-speech/using.shtml#voices 
 #ttsWatson.play(mytext) 
 #-----------------------------------------       CONVERTING PDF TO AUDIO FILE     --------------------------------------#
